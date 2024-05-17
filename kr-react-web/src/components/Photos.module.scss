@@ -1,0 +1,26 @@
+.main{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.photo{
+    border: 2px solid gray;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    max-width: 300px;
+    height: 500px;
+    justify-content: space-between;
+    min-width: 350px;
+
+    & img{
+        max-width: 350px;
+
+    }
+}
+
+.numer{
+    width: 100px;
+}
